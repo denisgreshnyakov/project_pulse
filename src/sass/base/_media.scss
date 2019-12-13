@@ -1,0 +1,139 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .promo {
+
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .header {
+        justify-content: space-around;
+    }
+    .advantages {
+        &__wrapper {
+            justify-content: space-around;
+            
+        }
+        &__item {
+            max-width: 220px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+    .promo {
+        &__header{
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+        .header {
+            justify-content: space-between;
+            
+            &__logo {
+                width: 200px;
+            }
+            &__phone {
+                font-size: 14px;
+            }
+            &__official {
+                font-size: 14px;
+                span {
+                    font-size: 14px;
+                }
+            }
+            &__contacts {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .button {
+            width: 130px;
+            &_main {
+                width: 250px;
+                font-size: 15px;
+            }
+        }
+    }
+    .advantages {
+        &__title {
+            font-size: 27px;
+        }
+        &__wrapper {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        &__item {
+            margin-top: 25px;
+            max-width: 250px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+
+    .promo {
+        .header {
+            &__official {
+                display: none;
+            }
+            &__logo {
+                width: 190px;
+            }
+            &__contacts {
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+        }
+        &__header {
+            text-align: center;
+            font-size: 30px;
+        }
+        &__subheader {
+            text-align: center;
+            font-size: 17px;
+        }
+        &__wrapper {
+            align-items: center;
+        }
+        &__icons {
+            width: 320px;
+        }
+        &__icon {
+            width: 108px;
+            font-size: 12px;
+        }
+        .button {
+            &_main {
+                width: 220px;
+                font-size: 14px;
+            }
+        }
+        &__link {
+            font-size: 12px;
+        }
+    }
+    .advantages {
+        &__title {
+            font-size: 20px;
+        }
+    }
+}
