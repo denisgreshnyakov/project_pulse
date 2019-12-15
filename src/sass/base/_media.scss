@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 991px) {
 
 }
 
@@ -36,6 +36,41 @@
             display: flex;
             justify-content: center;
         }
+    }
+
+    .carousel {
+        &__inner {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+        li {
+            list-style-type: none;
+        }
+        ul.slick-dots {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            li {
+                button{
+                    outline: none;
+                    padding: 0;
+                    margin: 0 5px;
+                    background-color: #a1a1a1;
+                    border: none;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 100%;
+                }
+                &.slick-active button {
+                    outline: none;
+                    background: #c70101;
+                    transition-delay: 0.5s;
+                }
+            }
+        }
+
     }
     
 }
