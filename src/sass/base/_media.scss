@@ -158,6 +158,13 @@
             svg {
                 height: 22px;
             }
+            &:hover {
+                background-color: $main-color;
+                transition: 0.2s all;
+                svg {
+                    fill: #ffffff;
+                }
+            }
         }
     }
     .modal {
