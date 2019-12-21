@@ -65,6 +65,8 @@
             text-align: center;
         }
         &__descr {
+            max-width: 230px;
+            margin: 0 auto;
             margin-top: 16px;
             font-size: 14px;
             font-weight: 300;
@@ -136,6 +138,7 @@
                 margin-left: 0px;
             }
             li {
+                max-width: 234px;
                 position: relative;
                 font-size: 14px;
                 font-weight: 300;
